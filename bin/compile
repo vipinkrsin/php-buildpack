@@ -24,4 +24,5 @@ set -e
 BP=$(dirname $(dirname $0))
 $BP/compile-extensions/bin/check_stack_support
 export PYTHONPATH=$BP/lib
+echo 'vipin singh'
 python $BP/scripts/compile.py $1 $2
