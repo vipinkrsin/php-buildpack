@@ -24,3 +24,4 @@ BP=$(dirname $(dirname $0))
 export PYTHONPATH=$BP/lib
 VERSION=`cat $BP/VERSION`
 python $BP/scripts/detect.py $1 $VERSION
+echo 'vipin singh'
